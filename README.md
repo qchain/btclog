@@ -1,8 +1,8 @@
 btclog
 ======
 
-[![Build Status](https://travis-ci.org/btcsuite/btclog.png?branch=master)]
-(https://travis-ci.org/btcsuite/btclog)
+[![Build Status](https://travis-ci.org/qchain/btclog.png?branch=master)]
+(https://travis-ci.org/qchain/btclog)
 
 Package btclog implements a subsystem aware logger backed by seelog.
 
@@ -18,22 +18,22 @@ subsystem.  All messages are then passed along to the backend seelog logger.
 
 Full `go doc` style documentation for the project can be viewed online without
 installing this package by using the GoDoc site here:
-http://godoc.org/github.com/btcsuite/btclog
+http://godoc.org/github.com/qchain/btclog
 
 You can also view the documentation locally once the package is installed with
 the `godoc` tool by running `godoc -http=":6060"` and pointing your browser to
-http://localhost:6060/pkg/github.com/btcsuite/btclog
+http://localhost:6060/pkg/github.com/qchain/btclog
 
 ## Installation
 
 ```bash
-$ go get github.com/btcsuite/btclog
+$ go get github.com/qchain/btclog
 ```
 
 ## GPG Verification Key
 
 All official release tags are signed by Conformal so users can ensure the code
-has not been tampered with and is coming from the btcsuite developers.  To
+has not been tampered with and is coming from the qchain developers.  To
 verify the signature perform the following:
 
 - Download the public key from the Conformal website at
